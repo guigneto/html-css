@@ -1,0 +1,20 @@
+/* Color Theme Swatches in Hex */
+.Blue-Teal-Monochromatic-1-hex { color: #348888; }
+.Blue-Teal-Monochromatic-2-hex { color: #22BABB; }
+.Blue-Teal-Monochromatic-3-hex { color: #9EF8EE; }
+.Blue-Teal-Monochromatic-4-hex { color: #FA7F08; }
+.Blue-Teal-Monochromatic-5-hex { color: #F24405; }
+
+/* Color Theme Swatches in RGBA */
+.Blue-Teal-Monochromatic-1-rgba { color: rgba(52, 135, 135, 1); }
+.Blue-Teal-Monochromatic-2-rgba { color: rgba(33, 186, 186, 1); }
+.Blue-Teal-Monochromatic-3-rgba { color: rgba(158, 247, 237, 1); }
+.Blue-Teal-Monochromatic-4-rgba { color: rgba(249, 126, 8, 1); }
+.Blue-Teal-Monochromatic-5-rgba { color: rgba(242, 68, 4, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Blue-Teal-Monochromatic-1-hsla { color: hsla(180, 44, 36, 1); }
+.Blue-Teal-Monochromatic-2-hsla { color: hsla(180, 69, 43, 1); }
+.Blue-Teal-Monochromatic-3-hsla { color: hsla(173, 86, 79, 1); }
+.Blue-Teal-Monochromatic-4-hsla { color: hsla(29, 96, 50, 1); }
+.Blue-Teal-Monochromatic-5-hsla { color: hsla(15, 95, 48, 1); }
