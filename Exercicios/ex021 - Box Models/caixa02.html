@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: cornsilk;
+        }
+
+        header{
+            text-align: center;
+            margin: 10px auto;
+            width: fit-content;
+            padding: 10px;
+            border-width: 2px;
+            border-color: black;
+            border-style: solid;
+            background-color: bisque ;
+        }
+
+        nav > a{
+            text-decoration: none;
+        }
+
+        nav > a:hover{
+            color:red;
+        }
+
+        h1{
+            margin:10px;
+        }
+
+        main{
+            box-shadow: -1px 1px 4px rgba(0, 0, 0, 0.692);
+            margin:10px;
+            background-color: antiquewhite;
+            padding: 10px;
+            border-style: solid;
+            border-color: black;
+            border-width: 1px;
+            border-radius: 10px 2px;
+        }
+        .texto{
+            text-align: justify;
+            margin: 10px;
+        }
+
+        aside{
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+
+        footer{
+            text-align: center;
+            font-style: italic;
+            margin: auto;
+            width: 300px;
+        }
+
+        .guizi{
+            color: purple;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .guizi:hover{
+            color:orange;
+
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            background-color: white;
+            border-radius: 50%;
+            border: 2px solid;
+            display: grid;
+            place-items: center;
+        }
+
+        div#bola > p{
+            font-weight: bold;
+            margin: auto;
+            width: auto;
+            
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis accusamus ipsum consequuntur odio veniam et dolores sunt! Neque quibusdam, quaerat eum nobis error, quae sunt atque incidunt expedita nemo delectus.</p>
+                <aside>
+                    <p>Artigo escrito por Jose da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/guigneto" target="_blank" class="guizi">Guizi</a></p>
+    </footer>
+    <div id="bola">
+        <p>Fala pesoal</p>
+    </div>
+</body>
+</html>
