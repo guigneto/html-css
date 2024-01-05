@@ -143,6 +143,22 @@ main img.pequena{
     margin: auto;
 }
 
+div.video{
+    background-color: darkgreen;
+    margin:0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.8%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
 aside{
     background-color:#3FDB90 ;
     padding: 10px;
