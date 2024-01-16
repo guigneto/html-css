@@ -12,6 +12,12 @@
             width: 500px;
             border-collapse: collapse;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
         td,th{
             border: 1px solid black;
             text-align: center;
@@ -39,10 +45,11 @@
                     TR, TD, TH
      -->
     <table>
+        <caption>População das Unidades Fererativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -157,7 +164,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td class="num"><strong>210 127 145</strong></td>
             </tr>
         </tfoot>
